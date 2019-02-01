@@ -1,4 +1,3 @@
-<br>
 
 - BOM은 iframe에서 부모 페이지의 BOM에 접근하기 위한 window.parent를 제공한다.
 - BOM은 window.open으로 열린 페이지에서 부모 페이지의 BOM에 접근하기 위한 window.opener를 제공한다.
