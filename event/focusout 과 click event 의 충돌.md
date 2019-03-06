@@ -5,11 +5,15 @@ input 창에 값 입력 후 바로 Save 버튼을 클릭하면, focusout event�
 - 이유는 focus event가 click event보다 먼저 불리기 때문. 
 - event bubbling 현상도 아니기 때문에 event.preventDefault 같은 건 의미가 없다. 
 
+<br>
+
 ### 해결 방법
 - mousedown event 활용
   - mousedown -> focusout -> click 순서로 event가 불리기 때문에 실제 mousedown에 click과 동일한 event handler를 등록해놓으면, 
     mousedown, focusout event만 불려서 해결이 된다.
     
+<br>
+
 ### 다른 방법
 - 검색할때 찾은 예시는, 자동완성이었다. 검색창에서 focusout시 자동완성 리스트가 사라져야하는데, 자동완성 리스트를 클릭하려할때, focusout 이벤트때문에 자동완성 리스트 클릭은 안되고 리스트만 사라져버리는게 이슈였다.
 - 이에대한 해결 방법은, 3가지였다
@@ -26,6 +30,8 @@ input 창에 값 입력 후 바로 Save 버튼을 클릭하면, focusout event�
 4. mousedown event 활용
    - 내가 사용한 해결방법으로 해결이 가능하다.
   
+<br>
+
 ### 결론
 - 내 이슈를 mousedown event 로 해결한 이유는 아래와 같다.
 
