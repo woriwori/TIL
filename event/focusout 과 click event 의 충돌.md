@@ -1,1 +1,3 @@
-#focusout 과 click event 의 충돌
+# focusout 과 click event 의 충돌
+
+- validation check
