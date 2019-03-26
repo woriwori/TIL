@@ -62,11 +62,13 @@
   - Client에 id/password를 저장해놓고, 이걸로 직접 access token을 받아오는 거다.
   - 로그인은 Client를 통해서하고, Client는 이걸로 Authorization Server에서 직접 access token을 받아온다.
     (즉, id/pw를 Authorization Server에서 갖고 있는게 아니라는 것!)
+  - 약간.. Authorization Server와 Resource Server가 같을때라고 한다. 
   - (e.g. ?? ProIaaS가 IaaS서버로 로그인하고, 이 서버가 내부적으로 sysmaster 인증서버에 직접 접근해서 token받아온다 생각하면 될듯? )
 
 - Client Credentials Grant
   - Resource Owner(사용자) = Client 라고 한다.. 
-  - 뭔지 모르겠음.
+  - 사용자별로 access token 발급이 아니라 Client 단위로 발급이 되는 것.
+  - 로그인하면, Client 가 책임지고 서비스 콜하는것. 
 
 <br>
 
