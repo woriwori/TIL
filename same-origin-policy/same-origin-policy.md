@@ -17,6 +17,10 @@
    - CORS는 웹 서버에게 보안 cross-domain 데이터 전송을 활성화하는 cross-domain 접근 제어권을 부여합니다. <br>
    모던 브라우저들은 cross-origin HTTP 요청의 위험성을 완화시키기 위해 (XMLHttpRequest와 같은) API 컨테이너 내에서 CORS를 사용합니다.
    - request에 Origin header를 추가하면, response에서 Access-Control-Allow-Origin header를 주면서 서로간의 액세스를 허용해주는 방식
+   
+   그래서 http://a.com 에서 http://b.com으로 액세스 시도시, 
+   Origin: http://a.com 이라는 header를 실어서 b.com으로 보냈을때, b.com이 이를 허용한다면
+   Access-Control-Allow-Origin: http://a.com 이라는 헤더를 응답에 붙여서 보내면 액세스가 허용됨
    <br>
    만약 Access-Control-Allow-Origin header에 * 가 들어가 있으면, requeste origin 상관없이 허용해주는 것
    <br>
