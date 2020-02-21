@@ -21,7 +21,7 @@
    - w 옵션은 watch 옵션으로, webpack 커맨드 실행 후 계속 프로젝트 변경사항을 확인해서, 변경이 발생할 때마다 직접 recompile 해줌. -w 없으면 직접 매번 다시 webpack 커맨드치면 됨.
 5. webpack.config.js 파일 추가
 
-   ```
+   ```javascript
    const path = require('path');
 
     module.exports = {
@@ -56,7 +56,7 @@
    ```
 
 6. index.html에 bundle.js를 참조하는 코드 추가
-   ```
+   ```html
    <script src="./dist/bundle.js"></script>
    ```
 7. npm run build 실행
