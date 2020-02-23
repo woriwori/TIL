@@ -39,3 +39,6 @@
 - https://bcho.tistory.com/tag/Same%20origin%20policy
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Access_control_CORS
 - https://developer.mozilla.org/ko/docs/Web/Security/Same-origin_policy
+- https://www.html5rocks.com/en/tutorials/cors/
+- preflight 요청을 개발자도구로 확인할 수 있는 사이트 http://arunranga.com/examples/access-control/
+- 위의 테스트 사이트를 제공해준, 설명 잘되있는 블로그 https://zamezzz.tistory.com/137
