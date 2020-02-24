@@ -42,3 +42,5 @@
 - https://www.html5rocks.com/en/tutorials/cors/
 - preflight 요청을 개발자도구로 확인할 수 있는 사이트 http://arunranga.com/examples/access-control/
 - 위의 테스트 사이트를 제공해준, 설명 잘되있는 블로그 https://zamezzz.tistory.com/137
+- Preflight 요청이 뭘까.. https://livebook.manning.com/book/cors-in-action/chapter-4/51
+- 위 글을 해석해놓은듯한 글 https://nhj12311.tistory.com/69
